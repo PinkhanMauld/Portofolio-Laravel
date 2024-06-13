@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+
+body {
+    background-image: url(../image/Piggy\ Pink.jpg);
+}
+
+nav {
+    background-color: bisque;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    text-align: right;
+    border-bottom: 5px solid brown;
+    top: 0;
+}
+
+ul{
+    display: flex;
+    margin: 0;
+    padding: 0 100px;
+
+}
+
+li {
+    display: inline-block;
+    position: relative;
+    padding: 13px 12px;
+    margin: 10px;
+}
+
+a {
+    display: flex;
+    color: brown;
+    text-decoration: none;
+}
+
+ul li:hover{
+    background-color: rgba(165, 42, 42, 0.433);
+    border-radius: 10px;
+    transition: 0.5s;
+
+}
+
+ul li::after {
+    content: "";
+    width: 0%;
+    height: 5px;
+    display: flex;
+    margin: auto;
+    border-radius: 10px;
+    background-color: rgba(165, 42, 42, 0.812);
+}
+
+ul li:hover::after {
+    width: 100%;
+    transition: 0.5s;
+    
+
+}
+
+main {
+    margin-top: 100px;
+
+}
+
+.item1 {
+    background-color: gainsboro;
+    margin: 30px;
+    height: fit-content;
+    width: 500px;
+    box-shadow: 1px 1px 10px 10px peachpuff;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.item-item {
+    background-color: gainsboro;
+    margin: 30px;
+    height: fit-content;
+    width: 500px;
+    box-shadow: 1px 1px 10px 10px peachpuff;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 300px;
+    text-align: center;
+    padding: 20px;
+
+    
+}
+
+
+aside img {
+    width: 100PX;
+    border-radius: 100px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.item1 h1{
+    text-align: center ;
+    margin: 10px;
+    padding: 20px;
+}
+
+.item1 img {
+    width: 200px;
+    
+}
+
+.item1 p {
+    text-align: center ;
+    margin: 10px;
+    padding: 20px;
+}
+
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+footer{
+    background-color: bisque;
+    text-align: center;
+    padding: 50px;
+    margin-top: 15%;
+   
+}
+
+article img{
+    width: 100px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
